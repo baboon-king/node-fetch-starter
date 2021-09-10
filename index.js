@@ -5,6 +5,7 @@ import fetch from 'node-fetch';
 if (!globalThis.fetch) {
 	globalThis.fetch = fetch;
 }
+
 // fetch("https://jinshuju.net/graphql/f/vX981G", {
 //   "headers": {
 //     "accept": "*/*",
